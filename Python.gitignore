@@ -6,6 +6,17 @@ __pycache__/
 # C extensions
 *.so
 
+# Ignore all audio files
+*.wav
+
+# Ignore metadata files
+*.csv
+
+# Ignore any temporary files
+__pycache__/
+*.py[cod]
+
+
 # Distribution / packaging
 .Python
 build/
